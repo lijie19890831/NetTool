@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8105B7161DF93A180031C3D5 /* NetClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105B7151DF93A180031C3D5 /* NetClientManager.m */; };
+		8105B7191DF93C2A0031C3D5 /* NetManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105B7181DF93C2A0031C3D5 /* NetManagerTool.m */; };
+		81718A751E0F6EFA00CC3E46 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81718A741E0F6EFA00CC3E46 /* TestView.m */; };
 		81F9B3F71DF7D68300753FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F9B3F61DF7D68300753FE9 /* main.m */; };
 		81F9B3FA1DF7D68300753FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F9B3F91DF7D68300753FE9 /* AppDelegate.m */; };
 		81F9B3FD1DF7D68300753FE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F9B3FC1DF7D68300753FE9 /* ViewController.m */; };
@@ -15,6 +18,7 @@
 		81F9B4051DF7D68300753FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F9B4031DF7D68300753FE9 /* LaunchScreen.storyboard */; };
 		81F9B4101DF7D68300753FE9 /* netToolTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F9B40F1DF7D68300753FE9 /* netToolTestTests.m */; };
 		81F9B41B1DF7D68300753FE9 /* netToolTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F9B41A1DF7D68300753FE9 /* netToolTestUITests.m */; };
+		F94AFB10B38305B8EA981357 /* libPods-netToolTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5FEC84A53B59AD6409629B /* libPods-netToolTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8105B7141DF93A180031C3D5 /* NetClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetClientManager.h; sourceTree = "<group>"; };
+		8105B7151DF93A180031C3D5 /* NetClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetClientManager.m; sourceTree = "<group>"; };
+		8105B7171DF93C2A0031C3D5 /* NetManagerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManagerTool.h; sourceTree = "<group>"; };
+		8105B7181DF93C2A0031C3D5 /* NetManagerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManagerTool.m; sourceTree = "<group>"; };
+		81718A731E0F6EFA00CC3E46 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		81718A741E0F6EFA00CC3E46 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		81F9B3F21DF7D68300753FE9 /* netToolTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = netToolTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F9B3F61DF7D68300753FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81F9B3F81DF7D68300753FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,9 @@
 		81F9B4161DF7D68300753FE9 /* netToolTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = netToolTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F9B41A1DF7D68300753FE9 /* netToolTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = netToolTestUITests.m; sourceTree = "<group>"; };
 		81F9B41C1DF7D68300753FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C5FEC84A53B59AD6409629B /* libPods-netToolTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-netToolTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7255826C0C6ED0EA1639A4 /* Pods-netToolTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netToolTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-netToolTest/Pods-netToolTest.release.xcconfig"; sourceTree = "<group>"; };
+		A2DE3CAB8FB895FA4C723950 /* Pods-netToolTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netToolTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-netToolTest/Pods-netToolTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94AFB10B38305B8EA981357 /* libPods-netToolTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,8 @@
 				81F9B40E1DF7D68300753FE9 /* netToolTestTests */,
 				81F9B4191DF7D68300753FE9 /* netToolTestUITests */,
 				81F9B3F31DF7D68300753FE9 /* Products */,
+				ED41D70AB4C94709B56EBC7B /* Pods */,
+				A200D242949948B5D4BC47AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +117,13 @@
 		81F9B3F41DF7D68300753FE9 /* netToolTest */ = {
 			isa = PBXGroup;
 			children = (
+				81F9B4281DF7D80900753FE9 /* LJNetToolManager */,
 				81F9B3F81DF7D68300753FE9 /* AppDelegate.h */,
 				81F9B3F91DF7D68300753FE9 /* AppDelegate.m */,
 				81F9B3FB1DF7D68300753FE9 /* ViewController.h */,
 				81F9B3FC1DF7D68300753FE9 /* ViewController.m */,
+				81718A731E0F6EFA00CC3E46 /* TestView.h */,
+				81718A741E0F6EFA00CC3E46 /* TestView.m */,
 				81F9B3FE1DF7D68300753FE9 /* Main.storyboard */,
 				81F9B4011DF7D68300753FE9 /* Assets.xcassets */,
 				81F9B4031DF7D68300753FE9 /* LaunchScreen.storyboard */,
@@ -140,6 +159,34 @@
 			path = netToolTestUITests;
 			sourceTree = "<group>";
 		};
+		81F9B4281DF7D80900753FE9 /* LJNetToolManager */ = {
+			isa = PBXGroup;
+			children = (
+				8105B7141DF93A180031C3D5 /* NetClientManager.h */,
+				8105B7151DF93A180031C3D5 /* NetClientManager.m */,
+				8105B7171DF93C2A0031C3D5 /* NetManagerTool.h */,
+				8105B7181DF93C2A0031C3D5 /* NetManagerTool.m */,
+			);
+			path = LJNetToolManager;
+			sourceTree = "<group>";
+		};
+		A200D242949948B5D4BC47AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C5FEC84A53B59AD6409629B /* libPods-netToolTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED41D70AB4C94709B56EBC7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2DE3CAB8FB895FA4C723950 /* Pods-netToolTest.debug.xcconfig */,
+				9D7255826C0C6ED0EA1639A4 /* Pods-netToolTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81F9B41F1DF7D68300753FE9 /* Build configuration list for PBXNativeTarget "netToolTest" */;
 			buildPhases = (
+				944A78AE3DD11E1012FB7E17 /* [CP] Check Pods Manifest.lock */,
 				81F9B3EE1DF7D68300753FE9 /* Sources */,
 				81F9B3EF1DF7D68300753FE9 /* Frameworks */,
 				81F9B3F01DF7D68300753FE9 /* Resources */,
+				01B51C5902E999370649C49F /* [CP] Embed Pods Frameworks */,
+				C33991FD2E1438D4B9E8ECC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,13 +321,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01B51C5902E999370649C49F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netToolTest/Pods-netToolTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		944A78AE3DD11E1012FB7E17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C33991FD2E1438D4B9E8ECC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netToolTest/Pods-netToolTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81F9B3EE1DF7D68300753FE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				81F9B3FD1DF7D68300753FE9 /* ViewController.m in Sources */,
+				8105B7191DF93C2A0031C3D5 /* NetManagerTool.m in Sources */,
 				81F9B3FA1DF7D68300753FE9 /* AppDelegate.m in Sources */,
+				8105B7161DF93A180031C3D5 /* NetClientManager.m in Sources */,
+				81718A751E0F6EFA00CC3E46 /* TestView.m in Sources */,
 				81F9B3F71DF7D68300753FE9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,10 +524,12 @@
 		};
 		81F9B4201DF7D68300753FE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DE3CAB8FB895FA4C723950 /* Pods-netToolTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D5T8GK748F;
 				INFOPLIST_FILE = netToolTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.wanmei.netToolTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,10 +538,12 @@
 		};
 		81F9B4211DF7D68300753FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7255826C0C6ED0EA1639A4 /* Pods-netToolTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D5T8GK748F;
 				INFOPLIST_FILE = netToolTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.wanmei.netToolTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +619,7 @@
 				81F9B4211DF7D68300753FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81F9B4221DF7D68300753FE9 /* Build configuration list for PBXNativeTarget "netToolTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +628,7 @@
 				81F9B4241DF7D68300753FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81F9B4251DF7D68300753FE9 /* Build configuration list for PBXNativeTarget "netToolTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +637,7 @@
 				81F9B4271DF7D68300753FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
