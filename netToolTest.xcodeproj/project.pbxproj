@@ -10,6 +10,7 @@
 		8105B7161DF93A180031C3D5 /* NetClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105B7151DF93A180031C3D5 /* NetClientManager.m */; };
 		8105B7191DF93C2A0031C3D5 /* NetManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105B7181DF93C2A0031C3D5 /* NetManagerTool.m */; };
 		81718A751E0F6EFA00CC3E46 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81718A741E0F6EFA00CC3E46 /* TestView.m */; };
+		81718A781E0F790600CC3E46 /* TestNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 81718A771E0F790600CC3E46 /* TestNSObject.m */; };
 		81F9B3F71DF7D68300753FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F9B3F61DF7D68300753FE9 /* main.m */; };
 		81F9B3FA1DF7D68300753FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F9B3F91DF7D68300753FE9 /* AppDelegate.m */; };
 		81F9B3FD1DF7D68300753FE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F9B3FC1DF7D68300753FE9 /* ViewController.m */; };
@@ -45,6 +46,8 @@
 		8105B7181DF93C2A0031C3D5 /* NetManagerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManagerTool.m; sourceTree = "<group>"; };
 		81718A731E0F6EFA00CC3E46 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		81718A741E0F6EFA00CC3E46 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		81718A761E0F790600CC3E46 /* TestNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNSObject.h; sourceTree = "<group>"; };
+		81718A771E0F790600CC3E46 /* TestNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNSObject.m; sourceTree = "<group>"; };
 		81F9B3F21DF7D68300753FE9 /* netToolTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = netToolTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F9B3F61DF7D68300753FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81F9B3F81DF7D68300753FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 				81F9B3FC1DF7D68300753FE9 /* ViewController.m */,
 				81718A731E0F6EFA00CC3E46 /* TestView.h */,
 				81718A741E0F6EFA00CC3E46 /* TestView.m */,
+				81718A761E0F790600CC3E46 /* TestNSObject.h */,
+				81718A771E0F790600CC3E46 /* TestNSObject.m */,
 				81F9B3FE1DF7D68300753FE9 /* Main.storyboard */,
 				81F9B4011DF7D68300753FE9 /* Assets.xcassets */,
 				81F9B4031DF7D68300753FE9 /* LaunchScreen.storyboard */,
@@ -378,6 +383,7 @@
 				8105B7191DF93C2A0031C3D5 /* NetManagerTool.m in Sources */,
 				81F9B3FA1DF7D68300753FE9 /* AppDelegate.m in Sources */,
 				8105B7161DF93A180031C3D5 /* NetClientManager.m in Sources */,
+				81718A781E0F790600CC3E46 /* TestNSObject.m in Sources */,
 				81718A751E0F6EFA00CC3E46 /* TestView.m in Sources */,
 				81F9B3F71DF7D68300753FE9 /* main.m in Sources */,
 			);
